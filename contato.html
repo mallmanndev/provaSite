@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <title>Sistemas de Informação - Contato</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <!--CABEÇALHO -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/si_símbolo.png" height="60px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-md-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html#sobre" class="nav-link">Saiba-mais</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html#noticias" class="nav-link">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a href="contato.html" class="nav-link active">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!--SEÇÃO 4 -->
+  <section id="contato" class="container p-5">
+
+
+
+    <div class="row">
+      <h1 class="text-center">Contato</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-lg">
+        <div class="row my-4">
+          <div class="col">
+            <b>Endereço do campus:</b> Linha 7 de Setembro, Bairro Vista Alegre, Frederico Westphalen - RS
+          </div>
+        </div>
+        <div class="row my-4">
+          <div class="col">
+            <b>Telefone:</b> (55) 3744 0697
+          </div>
+        </div>
+        <div class="row my-4">
+          <div class="col">
+            <b>Email:</b> siufsmfw@ufsm.br
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-8">
+        <form class="container">
+          <div class="row">
+            <div class="col-md-8 my-2">
+              <label for="nome">Nome</label>
+              <input type="text" class="form-control" id="nome" placeholder="Nome">
+            </div>
+
+            <div class="col-md my-2">
+              <label for="sobrenome">Idade</label>
+              <input type="text" class="form-control" id="idade" placeholder="Idade">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3 my-2">
+              <label for="sexo">Sexo</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="sexo" id="masculino" checked>
+                <label class="form-check-label" for="masculino">
+                  Masculino
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="sexo" id="feminino">
+                <label class="form-check-label" for="feminino">
+                  Feminino
+                </label>
+              </div>
+            </div>
+
+            <div class="col-md my-3">
+              <label for="email">E-mail</label>
+              <input class="form-control" type="email" id="email" placeholder="Email">
+            </div>
+
+            <div class="col-md my-3">
+              <label for="telefone">Telefone</label>
+              <input class="form-control" type="text" id="telefone" placeholder="Telefone">
+            </div>
+          </div>
+
+          <div class="row my">
+            <div class="col-md my-2">
+              <label for="cidade">Cidade</label>
+              <input class="form-control" type="text" id="cidade">
+            </div>
+
+            <div class="col-md my-2">
+              <label for="estado">Estado</label>
+              <select class="form-control" id="estado">
+                <option selected>Rio Grande do Sul</option>
+                <option>Santa Catarina</option>
+                <option>Paraná</option>
+                <option>São Paulo</option>
+                <option>Mato Grosso do Sul</option>
+                <option>Mato Grosso</option>
+                <option>Rio de Janeiro</option>
+                <option>Pará</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md my-2">
+              <label for="mensagem">Mensagem</label>
+              <textarea class="form-control" id="mensagem" rows="3"></textarea>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-md my-2">
+              <button class="btn btn-primary" type="submit">Enviar</button>
+              <button class="btn btn-primary" type="reset">Cancelar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer class="page-footer font-small pt-4" style="background-color: #0d6efddd; color: #fff">
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <h4>Sede</h4>
+          <p>Av. Roraima nº 1000, Cidade Universitária, Bairro Camobi, Santa Maria - RS</p>
+          <p>+55 (55) 3220-8000</p>
+        </div>
+
+        <div class="col-md">
+          <h4>Campus Frederico Westphalen</h4>
+          <p>Linha 7 de Setembro, BR386, Bairro Vista Alegre, Frederico Westphalen - RS</p>
+          <p>(55) 3744 0697</p>
+          <p>siufsmfw@ufsm.br</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright text-center py-3 bg-primary" style="color: #fff;">
+      ©2021 Copyright: Matheus e Alexsander
+    </div>
+  </footer>
+
+</body>
+
+</html>
